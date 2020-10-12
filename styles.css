@@ -1,0 +1,32 @@
+.title1{
+    background-color: #b80303;
+    color: white;
+    font-family: "gill sans mt";
+    font-size: 45px;
+    letter-spacing: 3px;
+    font-weight: lighter;
+    padding-left: 40px;
+    padding-top: 8px;
+    padding-bottom: 8px;    
+    border-bottom: 1.5px tomato solid;
+    margin-left: 0px;
+    }
+.title2{
+    color: #3F3F42;
+    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 44px;
+}
+button{
+    background-color: white;
+    border: 1.5px #b80303 solid;
+}
+button:hover{
+    background-color: #b80303;
+    color: white;
+}
+sub{
+    background-color: black;
+    color: white;
+}
