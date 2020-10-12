@@ -1,4 +1,8 @@
-.title1{
+.body{
+    width: 800px;
+    margin: 40px;
+}
+.title-head{
     background-color: #b80303;
     color: white;
     font-family: "gill sans mt";
@@ -9,24 +13,87 @@
     padding-top: 8px;
     padding-bottom: 8px;    
     border-bottom: 1.5px tomato solid;
-    margin-left: 0px;
+    margin: auto;
     }
-.title2{
+.title-principal{
     color: #3F3F42;
-    font-family: ReithSerif,Helvetica,Arial,freesans,sans-serif;
-    font-weight: 500;
+    font-family: calisto mt;
+    font-weight: bold;
     font-size: 48px;
-    line-height: 44px;
+}
+#datatime{
+    margin-bottom: 10px;
 }
 button{
+    text-decoration: none;
+    color: #3F3F42;
+    font-size: 14px;
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    font-weight: 580;
     background-color: white;
-    border: 1.5px #b80303 solid;
+    border: 1px rgb(219, 127, 127) solid;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0.5rem;
 }
 button:hover{
     background-color: #b80303;
     color: white;
 }
 sub{
-    background-color: black;
-    color: white;
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    font-weight: 400;
+    background-color: rgb(63, 63, 66);
+    color: rgb(238, 238, 238);
+    margin: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 13px;
+    padding-right: 308px;
+}
+p{
+    width: 600px;
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    color: rgb(63, 63, 66);
+    font-size: 16px;
+    line-height: 22px;
+    display: block;
+}
+.bolder{
+    font-weight: bold;
+    padding-top: 20px;
+}
+.link1{
+    font-weight: bold;
+    color: rgb(63, 63, 66);
+
+}
+.link1:hover{
+    color: rgb(200, 100, 100);
+}
+.subtitle{
+    font-family: Sitka Small;
+    font-weight: 400;
+    font-size: 35px;
+}
+ul{
+    padding: 10px;
+}
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    color: rgb(63, 63, 66);
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+}
+.title-article{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 38px;
+    font-weight: lighter;
+}
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
 }
