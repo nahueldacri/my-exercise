@@ -104,6 +104,8 @@ footer{
     margin-bottom: 10px;
 }
 .line1{
+    position: relative;
+    bottom: 12px;
     height: 1px;
     border: 0px;
     background-color:rgb(207, 207, 214);
@@ -153,7 +155,7 @@ footer{
 }
 .link2:hover{
     color: rgb(200, 100, 100);
-    border: 2px rgb(200, 100, 100);
+    border-bottom: 2px rgb(200, 100, 100);
 }
 .data{
     color: #696969;
