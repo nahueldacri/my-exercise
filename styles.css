@@ -2,19 +2,98 @@
     width: 800px;
     margin: 40px;
 }
-.title-head{
+button{
+    margin-top: 10px;
+    margin-bottom: 20px;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px rgb(219, 127, 127) solid;
+    color: #3F3F42;
+    font-size: 14px;
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    font-weight: 580;
+    text-decoration: none;
+}
+button:hover{
     background-color: #b80303;
     color: white;
-    font-family: "gill sans mt";
-    font-size: 45px;
-    letter-spacing: 3px;
-    font-weight: lighter;
+}
+sub{
+    margin: 0px;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-left: 13px;
+    padding-right: 308px;
+    background-color: rgb(63, 63, 66);
+    color: rgb(238, 238, 238);
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    font-weight: 400;
+}
+p{
+    display: block;
+    width: 600px;
+    color: rgb(63, 63, 66);
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+}  
+ul{
+    padding: 10px;
+}
+li{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: rgb(63, 63, 66);
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    font-size: 16px;
+    line-height: 22px;
+    letter-spacing: 0.4px;
+}  
+h3{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 20px;
+}
+footer{
+    position: relative;
+    left: -40px;
+    width: 200%;
+    padding-top: 80px;
+    padding-left: 15px;
+    padding-bottom: 15px;
+    color: rgb(238, 238, 238);
+    background-color: rgb(63, 63, 66);
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    font-size: 13px;
+    font-weight: 400;
+}
+#name-diary header{
+    display: inline-block;
+    position: relative;
+    left: 40px;
+    bottom: 5px;
+    width: 25px;
+    height: 25px;
+    padding-left: 4px;
+    padding-bottom: 4px;
+    color: rgb(238, 238, 238);
+    background-color: rgb(63, 63, 66);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 26px;
+    font-weight: 500;
+}
+.title-head{
     padding-left: 40px;
     padding-top: 8px;
-    padding-bottom: 8px;    
-    border-bottom: 1.5px tomato solid;
+    padding-bottom: 8px;
     margin: auto;
-    }
+    background-color: #b80303;
+    color: white;
+    border-bottom: 1.5px tomato solid;
+    font-family: "gill sans mt";
+    font-size: 45px;
+    font-weight: lighter;
+    letter-spacing: 3px;      
+}
 .title-principal{
     color: #3F3F42;
     font-family: calisto mt;
@@ -24,76 +103,84 @@
 #datatime{
     margin-bottom: 10px;
 }
-button{
-    text-decoration: none;
-    color: #3F3F42;
-    font-size: 14px;
-    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
-    font-weight: 580;
-    background-color: white;
-    border: 1px rgb(219, 127, 127) solid;
-    margin-top: 10px;
-    margin-bottom: 20px;
-    padding: 0.5rem;
+.line1{
+    height: 1px;
+    border: 0px;
+    background-color:rgb(207, 207, 214);
 }
-button:hover{
-    background-color: #b80303;
-    color: white;
-}
-sub{
-    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
-    font-weight: 400;
-    background-color: rgb(63, 63, 66);
-    color: rgb(238, 238, 238);
-    margin: 0px;
-    padding-top: 16px;
-    padding-bottom: 16px;
-    padding-left: 13px;
-    padding-right: 308px;
-}
-p{
-    width: 600px;
-    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
-    color: rgb(63, 63, 66);
-    font-size: 16px;
-    line-height: 22px;
-    display: block;
-}
-.bolder{
-    font-weight: bold;
+.p-bolder{
     padding-top: 20px;
-}
-.link1{
     font-weight: bold;
-    color: rgb(63, 63, 66);
-
-}
-.link1:hover{
-    color: rgb(200, 100, 100);
 }
 .subtitle{
     font-family: Sitka Small;
     font-weight: 400;
     font-size: 35px;
 }
-ul{
-    padding: 10px;
-}
-li{
-    padding-top: 10px;
-    padding-bottom: 10px;
-    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+.link1{
     color: rgb(63, 63, 66);
-    font-size: 16px;
-    line-height: 22px;
-    letter-spacing: 0.4px;
+    font-weight: bold;
+}
+.link1:hover{
+    color: rgb(200, 100, 100);
+}
+.line2{
+    height: 2.375px;
+    border: 0;
+    background-color:rgb(207, 207, 214);
 }
 .title-article{
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     font-size: 38px;
     font-weight: lighter;
 }
-h3{
+.line3{
+    height: 2.375px;
+    border: 0;
+    background-color:rgb(199, 51, 51);
+}
+.more-news{
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.link2{
+    color: #696969;
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 22px; 
+}
+.link2:hover{
+    color: rgb(200, 100, 100);
+    border: 2px rgb(200, 100, 100);
+}
+.data{
+    color: #696969;
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    font-size: 13px;
+    font-weight: lighter;
+}
+#visit-news-1{
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+#news1{
+    color:  rgb(63, 63, 63);
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
     font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+#news1:hover{
+    color: rgb(200, 100, 100)
+}
+
+#link-footer{
+    color: rgb(238, 238, 238);
+    background-color: rgb(63, 63, 66);
+    text-decoration: none;
+}
+#link-footer:hover{
+    border-bottom: 1px rgb(238, 238, 238) solid;
 }
