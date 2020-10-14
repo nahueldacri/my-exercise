@@ -4,7 +4,7 @@
 }
 button{
     margin-top: 10px;
-    margin-bottom: 20px;
+    margin-bottom: 10px;
     padding: 0.5rem;
     background-color: white;
     border: 1px rgb(219, 127, 127) solid;
@@ -19,7 +19,8 @@ button:hover{
     color: white;
 }
 sub{
-    margin: 0px;
+    display: inherit;
+    margin-top: -10px;
     padding-top: 16px;
     padding-bottom: 16px;
     padding-left: 13px;
@@ -105,7 +106,9 @@ footer{
 }
 .line1{
     position: relative;
-    bottom: 12px;
+    bottom: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
     height: 1px;
     border: 0px;
     background-color:rgb(207, 207, 214);
@@ -163,11 +166,13 @@ footer{
     font-size: 13px;
     font-weight: lighter;
 }
-#visit-news-1{
+#visit-news{
     padding-top: 20px;
     padding-bottom: 20px;
 }
 #news1{
+    border: 4px rgb(200, 100, 100) solid;
+    padding: 5px;
     color:  rgb(63, 63, 63);
     font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
     font-size: 20px;
@@ -175,7 +180,10 @@ footer{
     text-decoration: none;
 }
 #news1:hover{
-    color: rgb(200, 100, 100)
+    border: 8px rgb(200, 100, 100) solid;
+    background-color: rgb(200, 100, 100);
+    color: white;
+    font-weight: bolder;
 }
 
 #link-footer{
@@ -185,4 +193,67 @@ footer{
 }
 #link-footer:hover{
     border-bottom: 1px rgb(238, 238, 238) solid;
+}
+.body2{
+    width: 800px;
+    margin: 40px;
+}
+#title-news1{
+    color: #3F3F42;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    font-size: 32px;
+}
+.subtitle-news1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    font-size: 28px;
+}
+#title-more-news{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 800;
+    font-size: 22px;
+}
+.link3{
+    color: #696969;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 18px;
+    font-weight: 600;
+    text-decoration: none;
+    line-height: 22px; 
+}
+.link3:hover{
+    color: rgb(100, 100, 180);
+    border-bottom: 2px rgb(100, 100, 180);
+}
+#news2{
+    border: 4px rgb(100, 100, 180) solid;
+    padding: 5px;
+    color:  rgb(63, 63, 63);
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    text-decoration: none;
+}
+#news2:hover{
+    border: 8px rgb(100, 100, 180) solid;
+    background-color: rgb(100, 100, 180);
+    color: white;
+    font-weight: bolder;
+}
+.button2{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0.5rem;
+    background-color: white;
+    border: 1px rgb(110, 110, 160) solid;
+    color: #3F3F42;
+    font-size: 14px;
+    font-family: ReithSans, Helvetica, Arial, freesans, sans-serif;
+    font-weight: 580;
+    text-decoration: none;
+}
+.button2:hover{
+    background-color: rgb(100, 100, 180);
+    color: white;
 }
